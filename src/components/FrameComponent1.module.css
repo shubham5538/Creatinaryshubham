@@ -1,0 +1,199 @@
+.navlinksIcon {
+  width: 48px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.navlinksWrapper {
+  margin-left: -204px;
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-262xl) 0 0;
+  box-sizing: border-box;
+}
+.creatorsMarketplace {
+  background: linear-gradient(90.37deg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.createYourFirst,
+.welcomeToIndiasContainer {
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+  font-family: inherit;
+}
+.welcomeToIndiasContainer {
+  align-self: stretch;
+  font-size: inherit;
+}
+.createYourFirst {
+  font-size: var(--h4-22px-bold-size);
+  display: inline-block;
+  max-width: 100%;
+}
+.welcomeToIndiasFirstCreatParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.empowerYourCreativity {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--b1-18px-medium-size);
+  font-weight: 500;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.getStarted {
+  position: relative;
+  font-size: var(--b1-18px-medium-size);
+  font-weight: 600;
+  font-family: var(--b2-16-medium);
+  color: var(--body);
+  text-align: left;
+  display: inline-block;
+  min-width: 96px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: var(--primary);
+  border-radius: var(--br-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-steelblue);
+}
+.heroContent,
+.heroContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.heroContent {
+  width: 474px;
+  gap: var(--gap-31xl);
+  z-index: 1;
+}
+.heroContentWrapper {
+  padding: var(--padding-89xl) var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+}
+.responsiveDevice33Copy2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -20px;
+  top: 20px;
+  transform: scale(1.19);
+}
+.wrapper32767469ResponsiveDe {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 210px);
+  max-height: 100%;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroImage {
+  height: 630px;
+  width: 630px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-161xl) var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-137xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h1-40px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-59xl);
+    justify-content: center;
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .welcomeToIndiasContainer {
+    font-size: var(--font-size-13xl);
+  }
+  .welcomeToIndiasFirstCreatParent {
+    gap: var(--gap-xl);
+  }
+  .heroContent {
+    gap: var(--gap-6xl);
+  }
+  .heroContentWrapper {
+    padding-top: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-20xl);
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navlinksWrapper {
+    padding-top: var(--padding-164xl);
+    box-sizing: border-box;
+  }
+  .welcomeToIndiasContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .createYourFirst {
+    font-size: var(--b1-18px-medium-size);
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

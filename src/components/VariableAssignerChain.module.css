@@ -1,0 +1,337 @@
+.frequentlyAskedQuestions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.logicGateChain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.quickAnswersTo {
+  margin: 0;
+}
+.checkOutOur {
+  margin: 0;
+  color: var(--primary);
+}
+.quickAnswersToContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--b1-18px-medium-size);
+  font-weight: 500;
+  text-align: center;
+  color: var(--secondary-text-alt);
+}
+.dataComparerChain,
+.dataTransformerChain {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dataTransformerChain {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.dataComparerChain {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-36xl) 0 var(--padding-37xl);
+  box-sizing: border-box;
+}
+.coibaseWallet {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sorterChain {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.coibaseWallet1 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navigation {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.doINeed,
+.icon2 {
+  position: relative;
+}
+.doINeed {
+  flex: 1;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon2 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.outputMapChain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.line,
+.noNotAt {
+  align-self: stretch;
+  position: relative;
+}
+.line {
+  height: 1px;
+  background-color: var(--color-gray-100);
+}
+.noNotAt {
+  font-weight: 500;
+  color: var(--secondary-text-alt);
+}
+.inputMapChain {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.coibaseWallet2 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sorterChain1 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.coibaseWallet3 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.coibaseWallet4 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.down {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.coibaseWallet5 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sorterChain2 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.coibaseWallet6 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: calc(100% - 40px);
+}
+.icon7 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.constantHolderChain,
+.joinerChain,
+.sorterChain3 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sorterChain3 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--secondary-text);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.constantHolderChain,
+.joinerChain {
+  flex-direction: column;
+}
+.joinerChain {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--b2-16-medium-size);
+}
+.constantHolderChain {
+  width: 730px;
+  align-items: flex-end;
+  gap: var(--gap-41xl);
+}
+.variableAssignerChain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h3-27px-bold-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
+@media screen and (max-width: 800px) {
+  .dataComparerChain {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .constantHolderChain {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequentlyAskedQuestions {
+    font-size: var(--h4-22px-bold-size);
+  }
+}

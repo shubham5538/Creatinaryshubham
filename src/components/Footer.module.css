@@ -1,0 +1,235 @@
+.createnary {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.triangleFactory {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-83xl) 0 0;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-monoton);
+}
+.aboutCreatenary,
+.contactUs,
+.navigation,
+.refund {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+}
+.aboutCreatenary,
+.contactUs,
+.refund {
+  font-weight: 500;
+  min-width: 128px;
+}
+.contactUs,
+.refund {
+  min-width: 79px;
+}
+.refund {
+  min-width: 50px;
+}
+.newsletter {
+  display: inline-block;
+  min-width: 77px;
+}
+.newsletter,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  font-weight: 500;
+}
+.privacyPolicy {
+  display: inline-block;
+  min-width: 110px;
+}
+.starConstructor {
+  width: 179px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.contacts {
+  width: 83px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.jIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.delhiIndia {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.delhiIndiaWrapper,
+.spacer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.delhiIndiaWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.spacer {
+  width: 126px;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.popover {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 113px;
+  white-space: nowrap;
+}
+.popoverWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-16xl);
+}
+.allNewIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.cornerRadiusEditor {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 116px;
+  white-space: nowrap;
+}
+.borderStyler {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.allNewParent,
+.gridMaker,
+.labelDesigner,
+.triangleFactoryParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.gridMaker,
+.labelDesigner,
+.triangleFactoryParent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.gridMaker,
+.triangleFactoryParent {
+  gap: var(--gap-base-5);
+}
+.triangleFactoryParent {
+  width: 1080px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.roundedEdgeMaker,
+.shadowApplier {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.roundedEdgeMaker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.shadowApplier {
+  height: 0.5px;
+  position: relative;
+  border-top: 0.5px solid var(--body);
+}
+.roundedEdgeMakerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+  max-width: 100%;
+}
+.createnary2024 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 122px;
+}
+.dropShadowMaker,
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--b2-mobile-14px-medium-size);
+}
+.footer {
+  background-color: var(--primary);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi-5);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--b2-16-medium-size);
+  color: var(--body);
+  font-family: var(--b2-16-medium);
+}
+@media screen and (max-width: 800px) {
+  .triangleFactoryParent {
+    flex-wrap: wrap;
+  }
+  .roundedEdgeMakerParent {
+    gap: var(--gap-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .createnary {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .footer {
+    padding-top: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

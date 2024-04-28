@@ -1,0 +1,71 @@
+.howManyFollowers {
+  width: 370.1px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.active,
+.unactive {
+  position: absolute;
+  left: 0;
+  height: 10px;
+}
+.unactive {
+  top: 14px;
+  border-radius: 43.25px;
+  background-color: var(--secondary-text1);
+  width: 524.1px;
+}
+.active {
+  width: calc(100% - 15px);
+  top: 15px;
+  right: 15px;
+  border-radius: var(--br-25xl);
+  background-color: var(--primary);
+}
+.activeParent,
+.sorter {
+  position: absolute;
+  top: 0;
+  height: 40px;
+  z-index: 1;
+}
+.sorter {
+  width: calc(100% - 247.1px);
+  right: 0;
+  left: 247.1px;
+  border-radius: var(--br-8xs);
+  background-color: var(--primary);
+}
+.activeParent {
+  left: 0;
+  width: 277.1px;
+}
+.dataMerger {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.constantHolder,
+.slider1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.slider1 {
+  align-self: stretch;
+  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.15));
+  flex-direction: row;
+}
+.constantHolder {
+  width: 524.1px;
+  flex-direction: column;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--b1-18px-medium-size);
+  color: var(--primary-text);
+  font-family: var(--b2-16-medium);
+}
